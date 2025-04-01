@@ -5,7 +5,7 @@ export default function BottomNavBar() {
   const location = useLocation();
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 w-full bg-blue-50 flex justify-around py-5 shadow-lg border-t border-blue-100">
+    <div className="fixed bottom-0 left-0 right-0 w-full bg-blue-50 flex justify-around py-5 shadow-lg border-t border-blue-100 z-50">
       <Link
         to="/"
         className={`flex flex-col items-center ${location.pathname === "/" ? "text-blue-400" : "text-gray-400"}`}
