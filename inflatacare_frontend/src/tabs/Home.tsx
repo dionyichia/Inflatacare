@@ -113,7 +113,7 @@ const PressureMonitorDashboard = () => {
   }, [highestAccTime, pressurePoints, alertStatus]);
 
   // Calculate size and color based on pressure value and alert status
-  const getPointStyle = (value, isAlert) => {
+  const getPointStyle = (value: any, isAlert: any) => {
     const baseSize = isMobile ? 8 : 10; // Slightly smaller on mobile
     const maxSize = isMobile ? 20 : 25; // Slightly smaller on mobile
     const size = value > 0 ? baseSize + (value / 100) * (maxSize - baseSize) : baseSize;

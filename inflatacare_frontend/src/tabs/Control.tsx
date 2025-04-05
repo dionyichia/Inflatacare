@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { useArduinoApi } from '../api';
 
 const ControlPage = () => {
@@ -15,7 +14,7 @@ const ControlPage = () => {
   }, [selectedSection]);
 
   // Handle section selection
-  const handleSectionClick = (section) => {
+  const handleSectionClick = (section: any) => {
     if (selectedSection === section) {
       // If the same section is clicked again, deselect it
       setSelectedSection(null);
@@ -26,7 +25,7 @@ const ControlPage = () => {
   };
 
   // Handle mode selection
-  const handleModeClick = (mode) => {
+  const handleModeClick = (mode: any) => {
     if (mode === 0) {
       // If mode 0 is selected, deselect the section
       setSelectedSection(null);
