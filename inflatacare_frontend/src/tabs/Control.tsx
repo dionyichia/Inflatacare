@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useArduinoApi } from '../api';
+import BottomNavBar from '../components/Navbar';
 
 const ControlPage = () => {
   const [selectedSection, setSelectedSection] = useState(null); // T, L, or R
@@ -144,6 +145,8 @@ const ControlPage = () => {
       <footer className="bg-gray-100 border-t border-gray-200 p-2 text-xs text-center text-gray-500">
         Inflatacare System &copy; {new Date().getFullYear()}
       </footer>
+
+      <BottomNavBar/>
     </div>
   );
 };
