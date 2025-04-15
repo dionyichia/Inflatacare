@@ -3,7 +3,7 @@
 ![InflataCare Dashboard](./assests/Product_Poster.png)
 
 ## Overview
-InflataCare is a comprehensive web application designed to combat bedsores among elderly and bedridden patients. By monitoring pressure points and providing automated inflation controls, the system helps prevent pressure ulcers that develop from prolonged periods in the same position. The application interfaces with Arduino IoT Cloud Server to visualize pressure data in real-time and allows caregivers or patients to control inflation settings to redistribute pressure as needed.
+InflataCare is a comprehensive product designed to combat bedsores among elderly and bedridden patients. By monitoring pressure points and providing automated inflation controls, the system helps prevent pressure ulcers that develop from prolonged periods in the same position. This web application interfaces with Arduino IoT Cloud Server to visualize pressure data in real-time and allows caregivers or patients to control inflation settings to redistribute pressure as needed.
 
 
 ## Table of Contents
@@ -67,6 +67,10 @@ User Interface (React) <--> Node.js Server <--> MQTT <--> Arduino IoT Cloud <-->
 ## Screenshots
 ![Product Photo](./assests/inflatacare.jpg)
 ![Team Photo](./assests/team_photo.jpg)
+
+The Dream Team: (from left to right)
+
+Kwa En Min Sarah, Heng Xin Yu Felicia, Chia Dion Yi, Lee Jie Yuan, Chew Jin Cheng
 
 ## Installation
 
@@ -193,8 +197,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 * All contributors who have helped with development and testing
 
 ## Contact
-Project Link: https://github.com/yourusername/inflatacare
+The Dream Team:
+Chia Dion Yi, Chew Jin Cheng, Heng Xin Yu Felicia, Kwa En Min Sarah, Lee Jie Yuan
 
-For support or inquiries, please contact: support@inflatacare.com
+Project Link: https://github.com/dionyichia/Inflatacare
 
-© 2025 InflataCare. All Rights Reserved.
+For support or inquiries, please contact: dionyichia@gmail.com
+
+© 2025 Innovata Siez. All Rights Reserved.
