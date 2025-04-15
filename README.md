@@ -192,6 +192,7 @@ We welcome contributions to the InflataCare project. Please follow these steps:
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
+* The professors from MAE and REP who gave guidance on product development
 * Healthcare professionals who provided expertise on bedsore prevention
 * The Arduino community for IoT support
 * All contributors who have helped with development and testing
